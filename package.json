@@ -1,6 +1,6 @@
 {
     "name": "angular-truncate-pipes",
-    "version": "0.0.2",
+    "version": "0.0.4",
     "description": "A collection of Angular Pipes",
     "main": "./bundles/angular-truncate-pipes.umd.js",
     "module": "./modules/angular-truncate-pipes.es5.js",
