@@ -10,11 +10,11 @@ const globals = {
 };
 
 export default {
-    entry: './dist/modules/angular-count-to.es5.js',
-    dest: './dist/bundles/angular-count-to.umd.js',
+    entry: './dist/modules/angular-truncate-pipes.es5.js',
+    dest: './dist/bundles/angular-truncate-pipes.umd.js',
     format: 'umd',
     exports: 'named',
-    moduleName: 'ng.angularCountTo',
+    moduleName: 'ng.angularTruncatePipes',
     plugins: [resolve()],
     external: Object.keys(globals),
     globals: globals,

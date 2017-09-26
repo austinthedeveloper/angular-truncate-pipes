@@ -1,26 +1,32 @@
-import { CountToDirective } from './../directives/count-to.directive';
+import { WordsPipe } from './../pipes/words.pipe';
+import { SplitcharactersPipe } from './../pipes/splitcharacters.pipe';
+import { CharactersPipe } from './../pipes/characters.pipe';
 import { NgModule, ModuleWithProviders } from '@angular/core';
 
 @NgModule({
     declarations: [
-        CountToDirective
+        CharactersPipe,
+        SplitcharactersPipe,
+        WordsPipe
         // Pipes.
         // Directives.
     ],
     exports: [
-        CountToDirective
+        CharactersPipe,
+        SplitcharactersPipe,
+        WordsPipe
         // Pipes.
         // Directives.
     ]
 })
-export class CountToModule {
+export class TruncatePipesModule {
 
     /**
      * Use in AppModule
      */
     public static forRoot(): ModuleWithProviders {
         return {
-            ngModule: CountToModule,
+            ngModule: TruncatePipesModule,
             providers: []
         };
     }
@@ -30,7 +36,7 @@ export class CountToModule {
      */
     public static forChild(): ModuleWithProviders {
         return {
-            ngModule: CountToModule,
+            ngModule: TruncatePipesModule,
             providers: []
         };
     }

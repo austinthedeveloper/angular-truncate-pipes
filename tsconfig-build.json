@@ -25,7 +25,7 @@
         "skipTemplateCodegen": true,
         "annotateForClosureCompiler": true,
         "strictMetadataEmit": true,
-        "flatModuleOutFile": "angular-count-to.js",
-        "flatModuleId": "angular-count-to"
+        "flatModuleOutFile": "angular-truncate-pipes.js",
+        "flatModuleId": "angular-truncate-pipes"
     }
 }

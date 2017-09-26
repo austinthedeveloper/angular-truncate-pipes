@@ -1,4 +1,4 @@
-# angular-count-to
+# angular-truncate-pipes
 
 A simple count-to directive that counts from a number to a number.
 
@@ -8,12 +8,12 @@ A simple count-to directive that counts from a number to a number.
 
 ## Installation
 
-`npm install angular-count-to --save`
+`npm install angular-truncate-pipes --save`
 
 In your app.module.ts:
 
 ```
-import { CountToModule } from 'angular-count-to';
+import { CountToModule } from 'angular-truncate-pipes';
 @NgModule({
     ...
     imports: [CountToModule]
@@ -23,7 +23,7 @@ import { CountToModule } from 'angular-count-to';
 
 ## Background
 
-- The count-to code was re-written from [this AngularJS module](https://github.com/sparkalow/angular-count-to)
+- The count-to code was re-written from [this AngularJS module](https://github.com/sparkalow/angular-truncate-pipes)
 
 - The package build is from robisim74's [angular-library-starter](https://github.com/robisim74/angular-library-starter)
 

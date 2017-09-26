@@ -1,10 +1,10 @@
 {
-    "name": "angular-count-to",
-    "version": "0.0.3",
-    "description": "A simple Count-to directive built in Typescript",
-    "main": "./bundles/angular-count-to.umd.js",
-    "module": "./modules/angular-count-to.es5.js",
-    "es2015": "./modules/angular-count-to.js",
+    "name": "angular-truncate-pipes",
+    "version": "0.0.1",
+    "description": "A collection of Angular Pipes",
+    "main": "./bundles/angular-truncate-pipes.umd.js",
+    "module": "./modules/angular-truncate-pipes.es5.js",
+    "es2015": "./modules/angular-truncate-pipes.js",
     "scripts": {
         "build": "node build.js",
         "test": "karma start",
@@ -13,16 +13,16 @@
         "compodoc": "compodoc -p tsconfig.json",
         "compodoc-serve": "compodoc -s"
     },
-    "typings": "./angular-count-to.d.ts",
+    "typings": "./angular-truncate-pipes.d.ts",
     "author": "Austin Stewart",
     "repository": {
         "type": "git",
-        "url": "https://github.com/austinthedeveloper/angular-count-to.git"
+        "url": "https://github.com/austinthedeveloper/angular-truncate-pipes.git"
     },
     "bugs": {
-        "url": "https://github.com/austinthedeveloper/angular-count-to/issues"
+        "url": "https://github.com/austinthedeveloper/angular-truncate-pipes/issues"
     },
-    "homepage": "https://github.com/austinthedeveloper/angular-count-to",
+    "homepage": "https://github.com/austinthedeveloper/angular-truncate-pipes",
     "keywords": [
         "angular",
         "javascript",
