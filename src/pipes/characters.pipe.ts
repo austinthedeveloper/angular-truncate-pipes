@@ -1,12 +1,11 @@
-import { Pipe, PipeTransform} from '@angular/core';
+import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
   name: 'characters'
 })
 export class CharactersPipe implements PipeTransform {
-
   transform(value: string, args: number = 10, breakOnWord?: boolean): string {
-    let res = '';
+    let res = value;
     if (value && value.length > args && args > 0) {
       value = value.substring(0, args);
 
@@ -25,5 +24,4 @@ export class CharactersPipe implements PipeTransform {
     }
     return res;
   }
-
 }
